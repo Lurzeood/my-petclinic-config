@@ -6,12 +6,11 @@ spring:
   profiles: docker
   zipkin:
     baseUrl: http://tracing-server:9411
-server:
-  port: 8082
-spring:
   cloud:
     consul:
       host: localhost
       port: 8500
     discovery:
       serviceName: visit-service
+server:
+  port: 8082
