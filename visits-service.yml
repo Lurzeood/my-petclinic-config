@@ -2,6 +2,8 @@
   profiles: default
 
 ---
+server:
+  port: 8082
 spring:
   profiles: docker
   zipkin:
@@ -12,5 +14,4 @@ spring:
       port: 8500
     discovery:
       serviceName: visits-service
-server:
-  port: 8082
+
