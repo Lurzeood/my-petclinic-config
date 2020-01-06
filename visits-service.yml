@@ -12,5 +12,4 @@ spring:
       port: 8500
     discovery:
       serviceName: visit-service
-server:
-  port: 8082
+server.port: 8082
