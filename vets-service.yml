@@ -20,4 +20,4 @@ spring:
       host: localhost
       port: 8500
     discovery:
-      serviceName: api-gateway
+      serviceName: vets-service
