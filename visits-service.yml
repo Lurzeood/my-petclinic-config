@@ -11,5 +11,7 @@ spring:
       host: localhost
       port: 8500
     discovery:
-      serviceName: visit-service
+      serviceName: visits-service
+  application:
+    name: visits-service
 server.port: 8082
