@@ -12,6 +12,8 @@ spring:
       port: 8500
     discovery:
       serviceName: vets-service
+      ip-address: 169.254.155.76
+      prefer-ip-address: true
 server:
   port: 8083
 ---
