@@ -16,6 +16,3 @@ spring:
       prefer-ip-address: true
 server:
   port: 8083
----
-spring:
-  profiles: docker
