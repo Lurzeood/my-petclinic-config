@@ -11,7 +11,7 @@ spring:
       host: 192.168.56.102
       port: 8500
     discovery:
-      serviceName: vets-service
+      serviceName: vet-service
       ip-address: 169.254.155.76
       prefer-ip-address: true
 server:
